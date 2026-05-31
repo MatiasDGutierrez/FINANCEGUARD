@@ -149,9 +149,16 @@ ProyectoM4_MatiasGutierrez/
 
 ## 🚀 Cómo Usar el Proyecto
 
-### Requisitos Previos
+### Instalación de Dependencias
+
+**Opción 1: Usar requirements.txt (Recomendado)**
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn xgboost lightgbm catboost optuna joblib
+pip install -r requirements.txt
+```
+
+**Opción 2: Instalar manualmente**
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn xgboost lightgbm catboost optuna joblib nbconvert==6.5.0 nbformat==5.4.0
 ```
 
 ### Ejecutar los Notebooks
